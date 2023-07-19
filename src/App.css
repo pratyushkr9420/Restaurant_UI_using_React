@@ -1,0 +1,144 @@
+.popular-recipe-container {
+    margin: 50px;
+}
+
+
+.popular-recipe-card {
+    position: relative;
+    width: 260px;
+    height: 350px;
+}
+
+.popular-recipe-title {
+    position: absolute;
+    left: 18px;
+    top:110px;
+    font-size: 18px;
+    color:white;
+    font-weight:800;
+}
+
+.popular-recipe-image {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.veggie-recipe-container {
+    margin: 50px;
+}
+
+.veggie-recipe-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.veg-recipe-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.veg-recipe-title {
+    position: absolute;
+    left: 60px;
+    top:110px;
+    font-size: 18px;
+    color:white;
+    font-weight:800;
+    z-index: 999;
+}
+
+.search-bar {
+    position: relative;
+}
+
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar-link{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+.navbar-link:hover{
+    color:lightgrey;
+    z-index: 999;
+}
+
+.logo-link{
+    text-decoration: none;
+    color:black;
+}
+
+.logo-link:hover{
+    color:lightgrey;
+    z-index: 999;
+}
+
+.hamburger-icon{
+    position: fixed;
+    left:0px;
+    top:0px
+}
+
+.sidebar-container{
+    position: fixed;
+    left:0px;
+    top:60px;
+    bottom:0px;
+    right:1180px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.sidebar{
+    list-style-type: none;
+    padding-top: 100px;
+}
+
+.sidebar-link{
+    color: black;
+    text-decoration: none;
+    z-index: 10;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.sidebar-link:hover{
+    background-color: black;
+    color:white;
+}
+
+.social-links{
+    padding-left: 30px;
+    margin-top: 180px;
+    display: flex;
+    gap: 30px;
+}
+
+.details-container{
+    display: flex;
+    align-items: top;
+}
+
+.button-container{
+    margin-left: 50px;
+    padding-left: 0px;
+}
+.button-blank{
+    background-color: transparent;
+    border: solid 2px black;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.active{
+    background-color: black;
+    color:white;
+}
